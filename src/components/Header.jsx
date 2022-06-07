@@ -57,12 +57,11 @@ const Header = () => {
 
   return (
     <>
-      <header className="fixed z-50 w-screen  py-3 px-4 md:py-6 md:px-16 bg-primary ">
+      <header className="fixed z-50 w-screen  py-3 px-4 md:py-2 md:px-16 bg-primary ">
         {/* desktop & tablet */}
         <div className="hidden md:flex  h-full items-center  justify-between">
           <Link to={"/"} className="flex items-center gap-2 ">
-            <img src={Logo} alt="logo" className="w-8 object-cover" />
-            <p className="text-headingColor text-xl font-bold">City</p>
+            <img src={Logo} alt="logo" className="w-24  object-cover" />
           </Link>
 
           <div className="flex items-center gap-8">
@@ -150,8 +149,7 @@ const Header = () => {
             )}
           </div>
           <Link to={"/"} className="flex items-center gap-2 ">
-            <img src={Logo} alt="logo" className="w-8 object-cover" />
-            <p className="text-headingColor text-xl font-bold">City</p>
+            <img src={Logo} alt="logo" className="w-16 mb-2 object-cover" />
           </Link>
 
           <div className="relative">
